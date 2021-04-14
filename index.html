@@ -4,24 +4,28 @@
 	<meta charset="utf-8">
 	<title>Города</title>
 	<link rel="stylesheet" href="style.css">
-
 	<!-- Иконка -->
 	<link rel="shortcut icon" href="src/icon1.png" type="image/png">
-	
 	<!-- Шрифты -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="form">
-		<h1>Проект для Абыркода</h1>
-		<p id="speech"><i>Привет! Давай проиграем в Города!</i></p>
-		<p id="emotion"><img src="src/pic1.png" width="50%"></p>
-		<h2 id="city">Минск</h2>
-		<p>Введите город на букву <b id="letter">К</b><br>
-			<input type="text" id="answer"><button id="send">Отправить</button>
-		</p>
-		<p id="error">Неверно</p>
+	<div id="main">
+		<div id="formachka">
+			<h1>Проект для Абыркода</h1>
+			<p id="speech"><i>Привет! Давай проиграем в Города!</i></p>
+			<p id="emotion"><img src="src/pic1.png" width="50%"></p>
+			<h2 id="city">Минск</h2>
+			<p>Введите город на букву <b id="letter">К</b><br>
+				<input type="text" id="answer"><button id="send">Отправить</button>
+			</p>
+			<p id="error">Неверно</p>
+		</div>
+		<div id="side">
+			<div id="words"><del>Жодино</del> <del>Осиповичи</del> <del>Иваново</del> <del>Островец</del></div>
+			<div id="score">Очки: 4</div>
+		</div>
 	</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
